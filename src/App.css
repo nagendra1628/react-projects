@@ -1,4 +1,37 @@
-.primary{
-  background-color: blue;
+/*  this is background color change project
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+} */
+
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Wrapper button{
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 22px;
+  border-radius: 4px;
   color: #fff;
+}
+
+button:disabled {
+  opacity: 0.6;
+}
+
+button.plus {
+  background-color: blue;
+
+}
+
+button.minus {
+  background-color: red;
 }
